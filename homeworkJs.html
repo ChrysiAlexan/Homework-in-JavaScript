@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script>
+			employeesArray = [{Name: "Maria", surname: "Papa", id: "1", "E-mail": "maria@maria", salary: 1000}, 
+			{Name: "Nikos", surname: "Papadaki", id: "2", "E-mail": "nikos@nikos", salary: 1100},
+			{Name: "Gwgw", surname: "Papadopoulou", id: "3", "E-mail": "gwgw@gwgw", salary: 1200}];
+
+				console.log(employeesArray);
+
+			employeesArray.unshift({Name: "Chrysa", surname: "Alexandraki", id: "0", "E-mail": "chrysa@chrysa", salary: 5000});
+
+			for(var i=0; i<employeesArray.length;i++) {	
+				employeesArray[i].surname = employeesArray[i].surname.toUpperCase();
+			}
+
+
+			console.log("New array\n" , employeesArray);
+		</script>
+	</head>
+	<body></body>
+</html>
